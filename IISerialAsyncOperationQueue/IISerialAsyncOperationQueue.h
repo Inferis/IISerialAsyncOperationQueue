@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol IISerialAsyncOperation : NSObject
+@protocol IISerialAsyncOperation <NSObject>
 
 - (void)complete;
 
